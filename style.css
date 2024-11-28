@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap");
+body {
+  font-family: "Nunito";
+  color: #212529;
+  height: 100vh;
+  margin: 20px;
+  background-image: linear-gradient(to bottom right, #33d180, #17bd5f);
+
+  background-repeat: no-repeat;
+}
+.app {
+  height: auto;
+  width: 320px;
+  padding: 30px;
+  padding-top: 5px;
+  background: #ffffff4f;
+  margin: auto;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+.inputs input {
+  border-radius: 3px;
+  padding: 10px 24px;
+  border: 1px solid #17bd5f;
+}
+.inputs button {
+  background: #343a40;
+  color: #ddd;
+  border-radius: 3px;
+  padding: 10px 24px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* line-height: 0; */
+}
+input,
+button {
+  margin: 5px 0;
+  border: none;
+  background: #ffffff6c;
+}
+.btn {
+  background: #343a40;
+  border-radius: 3px;
+  padding: 10px 24px;
+  color: #fff;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #343a40;
+  color: #fff;
+}
