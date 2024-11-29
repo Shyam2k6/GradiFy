@@ -2,7 +2,7 @@
 body {
   font-family: "Nunito";
   color: #212529;
-  height: 100vh;
+  min-height: 100vh;
   margin: 20px;
   background-image: linear-gradient(to bottom right, #33d180, #17bd5f);
 
