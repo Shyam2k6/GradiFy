@@ -46,7 +46,7 @@ function filterTopStudents() {
   displayStudents(topStudents);
 }
 
-// Function to reset and show all students
+// Function to show all students
 function resetList() {
   displayStudents(students);
 }
