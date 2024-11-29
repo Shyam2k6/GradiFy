@@ -1,9 +1,9 @@
-let students = []; // Array to hold student records
+let students = [];
 
 // Function to display all students
 function displayStudents(data) {
   const tbody = document.querySelector("#studentTable tbody");
-  tbody.innerHTML = ""; // Clear the table
+  tbody.innerHTML = ""; 
 
   data.forEach((student, index) => {
     const row = document.createElement("tr");
@@ -16,7 +16,7 @@ function displayStudents(data) {
         `;
     tbody.appendChild(row);
   });
-  updateAverage(); // Update the class average
+  updateAverage();
 }
 
 // Function to add a student
